@@ -1,0 +1,66 @@
+.footer {
+	color: rgba(255, 255, 255, 0.5);
+	background-color: #1A1D25;
+}
+.footer__main {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1352px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 80px;
+	padding-bottom: 110px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.078);
+ display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between; 
+}
+
+
+.footer__brand {
+	max-width: 283px;
+}
+.footer__logo {
+	padding-bottom: 16px;
+}
+.footer__description {
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.footer__list {
+	padding: 0;
+	margin: 0;
+}
+.footer__item {
+	padding-bottom: 10px;
+	font-size: 17px;
+	font-weight: 500;
+
+}
+.footer__link {
+	color: rgba(255, 255, 255, 0.5);
+}
+.footer__info {
+
+	max-width: 262px;
+}
+.footer__legal {
+	font-size: 17px;
+	font-weight: 500;
+	line-height: 1.4;
+}
+.footer__bottom {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	max-width: 1352px;
+	padding-left: 25px;
+	padding-right: 25px;
+	display: flex;
+	align-items: center;
+	/* flex-wrap: wrap;
+	flex-direction: column-reverse; */
+	justify-content: space-between;
+}

@@ -1,0 +1,49 @@
+.button {
+	padding: 12px;
+	width: 100%;
+	border-radius: 34px;
+	border: 0;
+	background-color: #fff;
+	color: var(--color-bg);
+	font-size: 18px;
+	font-weight: 800;
+	transition: background-color 0.3s ease;
+	cursor: pointer;
+}
+.button-primary{
+	background-color: #357EFE;
+	color: #fff;
+
+}
+
+
+.button:hover {
+	background-color: #f1ecec;
+}
+.button-primary:hover {
+	background-color: #216ff7;
+}
+
+.titel{
+	padding-top: 80px;
+	padding-bottom: 40px;
+
+}
+
+.titel__h2 {
+	font-size: 48px;
+	padding-bottom: 24px;
+	font-weight: 600;
+	max-width: 453px;
+	margin: 0 auto;
+	text-align: center;
+}
+.titel__p {
+	font-size: 17px;
+	font-weight: 500;
+	max-width: 920px;
+	margin: 0 auto;
+	text-align: center;
+	opacity: 50%;
+	color: #4E5D7C80;
+}
