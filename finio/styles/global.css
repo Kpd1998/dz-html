@@ -2,10 +2,9 @@
 	--color-bg: #357efe;
 }
 body {
-	
 	margin: 0;
-	font-family: "Inter", sans-serif;
-  font-style: normal;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
 }
 a {
 	color: #fff;
@@ -14,10 +13,9 @@ a {
 ul {
 	list-style-type: none;
 }
-h2{
+h2 {
 	margin: 0;
 }
-p{
+p {
 	margin: 0;
 }
-

@@ -10,12 +10,10 @@
 	transition: background-color 0.3s ease;
 	cursor: pointer;
 }
-.button-primary{
-	background-color: #357EFE;
+.button-primary {
+	background-color: #357efe;
 	color: #fff;
-
 }
-
 
 .button:hover {
 	background-color: #f1ecec;
@@ -24,10 +22,9 @@
 	background-color: #216ff7;
 }
 
-.titel{
+.titel {
 	padding-top: 80px;
 	padding-bottom: 40px;
-
 }
 
 .titel__h2 {
@@ -45,5 +42,21 @@
 	margin: 0 auto;
 	text-align: center;
 	opacity: 50%;
-	color: #4E5D7C80;
+	color: #4e5d7c80;
+}
+@media (max-width: 500px) {
+	.titel {
+		padding-top: 48px;
+		padding-bottom: 32px;
+	}
+	.titel__h2 {
+		font-size: 36px;
+		text-align: start;
+		margin: 0;
+		/* padding-left: 25px;
+			padding-right: 25px; */
+	}
+	.titel__p {
+		text-align: start;
+	}
 }
