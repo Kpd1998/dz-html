@@ -70,9 +70,19 @@
 .section__info-blok-img {
 	flex: 1;
 	max-width: 729px;
+	position: relative;
 }
 .info-blok-img {
 	max-width: 100%;
+}
+.info-blok-img-pr {
+	max-width: 450px;
+	position: absolute;
+	left: 215px;
+	top: 130px;
+}
+.info-blok-img-pr2 {
+	display: none;
 }
 
 @media (max-width: 1300px) {
@@ -89,7 +99,16 @@
 		padding-right: 0;
 	}
 }
-@media (max-width: 500px) {
+
+@media (max-width: 800px) {
+	.info-blok-img-pr {
+		max-width: 250px;
+		left: 290px;
+		top: 180px;
+	}
+}
+
+@media (max-width: 600px) {
 	.section__info-blok-text h2 {
 		font-size: 32px;
 		font-weight: 600;
@@ -99,6 +118,16 @@
 		padding-top: 48px;
 		padding-bottom: 48px;
 		gap: 33px;
+	}
+	.info-blok-img-pr-none {
+		display: none;
+	}
+	.info-blok-img-none {
+		display: none;
+	}
+	.info-blok-img-pr2 {
+		display: block;
+		max-width: 327px;
 	}
 }
 
@@ -139,10 +168,13 @@
 	max-width: 1156px;
 	margin: 0 auto;
 	margin-bottom: 64px;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 .advantages__img1 {
 	position: absolute;
-	left: 10px;
+
+	width: 50%;
 	height: 100%;
 }
 .advantages__img2 {
@@ -360,7 +392,7 @@
 	gap: 24px;
 }
 .tariffs__blok-card {
-	border: 1px solid rgb(78, 93, 124, 0.16);
+	border: 1px solid rgba(255, 255, 255, 0.16);
 	border-radius: 8px;
 	background: #fff;
 }
@@ -372,7 +404,9 @@
 .blok-card {
 	position: relative;
 	max-width: 289px;
+	border-radius: 8px;
 	padding: 93px 40px 48px;
+	box-shadow: 0 0 32px rgba(79, 94, 125, 0.16);
 }
 .blok-card-discount {
 	position: absolute;
@@ -495,11 +529,20 @@
 	top: 360px;
 	left: 20px;
 }
+.review__left:hover {
+	opacity: 50%;
+	cursor: pointer;
+}
 .review__right {
 	position: absolute;
+	opacity: 70%;
 	z-index: 2;
 	top: 360px;
 	right: 20px;
+}
+.review__right:hover {
+	opacity: 50%;
+	cursor: pointer;
 }
 .review__points {
 	position: absolute;
